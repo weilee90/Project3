@@ -1,0 +1,4 @@
+gp : gp.cpp  graph.cpp
+	g++ gp.cpp graph.cpp -o gp
+clean:
+	rm -f gp 
